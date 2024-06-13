@@ -8,7 +8,7 @@
             height: 100px;
             background: red;
             position: absolute;
-            left: 200;
+            left: 200px;
         }
     </style>
 </head>
@@ -34,13 +34,14 @@
             target.style.left = ` ${left--}px`
         }
     }
+    console.log('test jarvi');
 
     //requestAnimationFrame效果
     (function animloop() {
        // render(); // do nothing
         // window.requestAnimationFrame(animloop);
     })();
-window.requestAnimationFrame(animloop);
+//window.requestAnimationFrame(animloop);
 </script>
 </body>
 </html>
